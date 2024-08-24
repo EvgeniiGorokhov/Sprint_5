@@ -5,7 +5,6 @@ from data import UsersTestData
 from locators import Locators
 from conftest import driver
 
-
 class TestRegistration:
     # Регистрация аккаунта пользователя с валидными значениями
     def test_registration_new_account_success_submit(self, driver):
